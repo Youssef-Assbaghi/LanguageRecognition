@@ -50,7 +50,35 @@ The main mechanical component is a anthropomorphic 5-axis robotic arm plus clamp
   Generally speaking Matt-Omato is able to:
   -  Detect tomato coordinates using a 3D point cloud.
   -  Calculate the angles of rotation of the arm motors in order to move the manipulator through inverse kinematics.
-  -   Move autonomously through the tomato plants thanks to the rails and proximity sensors
+  -   Move autonomously through the tomato plants thanks to the rails and proximity sensor
+
+
+#Loading the data
+WiLI-2018, the Wikipedia language identification benchmark dataset, contains 235000 paragraphs of 235 languages. Each language in this dataset contains 1000 rows/paragraphs.
+
+We use a dataset that contains 22 selective languages from the original dataset which includes the following Languages
+  -  English
+  -  Arabic
+  -  French
+  -  Hindi
+  -  Urdu
+  -  Portuguese
+  -  Persian
+  -  Pushto
+  -  Spanish
+  -  Korean
+  -  Tamil
+  -  Turkish
+  -  Estonian
+  -  Russian
+  -  Romanian
+  -  Chinese
+  -  Swedish
+  -  Latin
+  -  Indonesian
+  -  Dutch
+  -  Japanese
+  -  Thai
 
 # Models <a name="3"></a>
 
