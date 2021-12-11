@@ -21,7 +21,9 @@
 
 
 # What is this? <a name="1"></a>
-This project is related to the subject of the third-year computing mention at the UAB of "Robotics, Language and Planning" . In it, a project of the creation of a robot through simulations has been carried out. In this repository you can find everything you need to run and test the robot. It includes all the Python code and the CoppeliaSim scenes to test Matt-Omato. The point of that project is we have to create a robot with a budget  of approximately 100€. To see more detailed information about the project, please read the report carefully.
+Recognize the situations in which the application of computational learning algorithms can be useful to solve a problem.
+can be useful to solve a problem.Analyze the problem to be solved and design the optimal solution by applying the techniques learnt. Write technical documents related to the analysis and solution of a problem. Program the basic algorithms to solve the proposed problems. Evaluate the results of the implemented solution and assess possible improvements and defend and argue the decisions taken in the solution of the proposed problems.
+
 # Requeriments <a name="R"></a>
 For running each sample code:
 
