@@ -1,12 +1,12 @@
 # LanguageRecognition
 
- Tomato Harvester Robot to automate agricultural work 
+ This is a project of the machine learning course and is based on recognizing the language in which a text is written. To validate the results you can run the demo.py file and see the results of a text for each model.
 
 
 
 # Table of Contents
  
- <img src="https://github.com/Youssef-Assbaghi/LanguageRecognition/blob/main/demo/Grafcos.png" align="right" width="300" alt="header"/>
+ <img src="https://miro.medium.com/max/960/0*xLRsbQ02J7sQpNNy" align="right" width="300" alt="header"/>
 
    * [What is this?](#1)
    * [Requeriments](#R)
