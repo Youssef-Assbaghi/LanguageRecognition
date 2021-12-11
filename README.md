@@ -14,7 +14,7 @@
       * [Language](#7)
    * [Models](#3)
    * [Results](#4)
-   * [Testing and results](#5)
+
 
    * [Authors](#6)
 
@@ -40,18 +40,14 @@ For running each sample code:
 
 
 # Description <a name="2"></a>
-Matt-Omato is a robot capable of harvesting tomatoes autonomously through different growing lines and deposit them in a box attached to the base.
-
-The main mechanical component is a anthropomorphic 5-axis robotic arm plus clamp which allows you a sufficient range to harvest tomatoes you have on the growing lines on each side.  At the end of the arm it has a special 3-finger gripper which allows us to take the tomatoes more easily and correctly.
-
- Matt-Omato's movement through the tomato plants is linear. Moves back and forth through rails so you don't lose straight line  and thus avoid possible shock with the tomateras. Matt-Omato has two proximity sensors which allow him to change direction if he detects any object.
  
- The other most important part of Matt-Omato is the RGB-D camera that has built-in. Thanks to it it is able to detect the tomatoes and obtain the coordinates of them.  This will also allow us to define a threshold that types of tomatoes we agree to harvest and which we do not.
- 
-  Generally speaking Matt-Omato is able to:
-  -  Detect tomato coordinates using a 3D point cloud.
-  -  Calculate the angles of rotation of the arm motors in order to move the manipulator through inverse kinematics.
-  -   Move autonomously through the tomato plants thanks to the rails and proximity sensor
+  In order to make a good language prediction, we must first follow a series of steps to ensure that we do it correctly:
+  - Load the data
+  - Convert the dataset to lowercase
+  - Verify that there are no null rows, if there are, remove them from the dataset.
+  - Separate the dataset into training and test subsets.
+  - Convert the training and test data into a sparse matrix with the CountVectorizer function.
+  - Test different models
   -   
 ![image](https://user-images.githubusercontent.com/72655367/145685007-72932db1-8459-4a2d-8e36-8bb74640448b.png)
 
@@ -84,7 +80,10 @@ We use a dataset that contains 22 selective languages from the original dataset 
   -  Thai
 
 # Models <a name="3"></a>
+In this project i had to use a classifier. Because of that i tried different models to select the best ones.
+The models that were used in this project were the next ones: Multinomial Naive Bayes, Stochaistic Gradient Descent Classifier, Decision Tree Classifier with both criterion (gini and entropy), K-Neighbors Classifier, Support Vector Machine with the kernels of (rbf and poly), Random Forest Classifier and the Multi Layer Perceptron.
 
+Comparing the different results I have realized that the best algorithms are Naive Bayes, Random Forest and Multi Layer Perceptron. This is due to the fact that I have as success criterion a precision higher than 90%.Furthermore, by improving the hyperparameters of the Decision Tree algorithms, we will probably reach an accuracy similar to that of the Random Forest, but due to time constraints it has not been possible to verify it.
 
 
 # Results <a name="4"></a>
@@ -95,6 +94,11 @@ We use a dataset that contains 22 selective languages from the original dataset 
 | Stochaistic Gradient Descent |       0,966212121    |        0,966096163 |     0,966676063 | 
 | Random Forest                |       0,947059245    |        0,947059245 |      0,94784544 |
 | Multi Layer Perceptron       |       0,963030303    |        0,962499506 |     0,963192635 |
+| Decision Tree Entropy        |       0,890454545    |        0,893456212 |     0,898740202 |
+| Decision Tree Gini           |       0,884242423    |        0,887271508 |     0,888739760 |
 
 
 <img src="https://github.com/Youssef-Assbaghi/LanguageRecognition/blob/main/demo/Grafcos.png"  alt="header"/>
+
+# Authors <a name="6"></a>
+Youssef Assbaghi 1493477 UAB
