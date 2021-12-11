@@ -24,16 +24,16 @@ This project is related to the subject of the third-year computing mention at th
 # Requeriments <a name="R"></a>
 For running each sample code:
 
-- Python 3.7
+- <a href="https://www.python.org/downloads/">Python 3.7</a>
 
-- numpy <a fref="www.google.es">numpy</a>
+- <a href="https://numpy.org/install/">numpy</a>
 
 - math
 - Jupyter Notebook
 
 - matplotlib
 
-- sklearn
+- <a href="https://scikit-learn.org/stable/install.html">sklearn</a>
 
 - seaborn
 
