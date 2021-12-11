@@ -57,3 +57,5 @@ The main mechanical component is a anthropomorphic 5-axis robotic arm plus clamp
 
 
 # Results <a name="4"></a>
+
+<img src="https://github.com/Youssef-Assbaghi/LanguageRecognition/blob/main/demo/Grafcos.png"  alt="header"/>
