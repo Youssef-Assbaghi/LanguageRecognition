@@ -48,7 +48,8 @@ For running each sample code:
   - Separate the dataset into training and test subsets.
   - Convert the training and test data into a sparse matrix with the CountVectorizer function.
   - Test different models
-  -   
+
+As we can see we have the same number of datasets for each language this makes mor easier to split the dataset to train and test.
 ![image](https://user-images.githubusercontent.com/72655367/145685007-72932db1-8459-4a2d-8e36-8bb74640448b.png)
 
 
@@ -87,6 +88,7 @@ Comparing the different results I have realized that the best algorithms are Nai
 
 
 # Results <a name="4"></a>
+As can be seen in the graph the best algorithms for classifying languages are gradient descent and Multi Layer Perceptron. These two give an accuracy of more than 96%.
 
 | Algorithm/score              | F1 (micro)           | F1 (macro)         | F1 (weighted)   |
 |------------------------------|----------------------|--------------------|-----------------|
