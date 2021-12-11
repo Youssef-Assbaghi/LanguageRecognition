@@ -52,6 +52,8 @@ The main mechanical component is a anthropomorphic 5-axis robotic arm plus clamp
   -  Detect tomato coordinates using a 3D point cloud.
   -  Calculate the angles of rotation of the arm motors in order to move the manipulator through inverse kinematics.
   -   Move autonomously through the tomato plants thanks to the rails and proximity sensor
+  -   
+![image](https://user-images.githubusercontent.com/72655367/145685007-72932db1-8459-4a2d-8e36-8bb74640448b.png)
 
 
 ## Loading the data <a name="7"></a>
