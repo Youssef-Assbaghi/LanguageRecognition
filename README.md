@@ -63,7 +63,7 @@ The main mechanical component is a anthropomorphic 5-axis robotic arm plus clamp
 | Naive Bayes                  |       0,944393939    |        0,941980548 |     0,943844696 | 
 | Stochaistic Gradient Descent |       0,966212121    |        0,966096163 |     0,966676063 | 
 | Random Forest                |       0,947059245    |        0,947059245 |      0,94784544 |
-| Multi Layer                  |       0,963030303    |        0,962499506 |     0,963192635 |
+| Multi Layer Perceptron       |       0,963030303    |        0,962499506 |     0,963192635 |
 
 
 <img src="https://github.com/Youssef-Assbaghi/LanguageRecognition/blob/main/demo/Grafcos.png"  alt="header"/>
