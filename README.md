@@ -26,7 +26,7 @@ For running each sample code:
 
 - Python 3.7
 
-- numpy <a fref="www.google.es"></a>
+- numpy <a fref="www.google.es">numpy</a>
 
 - math
 - Jupyter Notebook
