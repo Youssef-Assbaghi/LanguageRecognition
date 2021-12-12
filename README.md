@@ -24,6 +24,7 @@
 Recognize the situations in which the application of computational learning algorithms can be useful to solve a problem.
 can be useful to solve a problem.Analyze the problem to be solved and design the optimal solution by applying the techniques learnt. Write technical documents related to the analysis and solution of a problem. Program the basic algorithms to solve the proposed problems. Evaluate the results of the implemented solution and assess possible improvements and defend and argue the decisions taken in the solution of the proposed problems.
 
+
 # Requeriments <a name="R"></a>
 For running each sample code:
 
@@ -39,6 +40,16 @@ For running each sample code:
 - <a href="https://scikit-learn.org/stable/install.html">sklearn</a>
 
 - seaborn
+- <a href="https://git-lfs.github.com/"> Git LFS </a>ç
+
+## RUN DEMO:
+1. Install Git LFS
+2. Install python3
+3. Install sklearn
+4. Clone this repo (Importat to have step 1)
+5. Run file demo.py
+6. Write a sentence or a text
+7. See predictions!
 
 
 # Description <a name="2"></a>
