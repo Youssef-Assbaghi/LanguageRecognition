@@ -40,7 +40,7 @@ For running each sample code:
 - <a href="https://scikit-learn.org/stable/install.html">sklearn</a>
 
 - seaborn
-- <a href="https://git-lfs.github.com/"> Git LFS </a>ç
+- <a href="https://git-lfs.github.com/"> Git LFS </a>
 
 ## RUN DEMO:
 1. Install Git LFS
