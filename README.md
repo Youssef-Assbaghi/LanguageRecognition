@@ -1,6 +1,6 @@
 # LanguageRecognition
 
- This is a project of the machine learning course and is based on recognizing the language in which a text is written. To validate the results you can run the demo.py file and see the results of a text for each model.
+ This is a project of the machine learning course and is based on recognizing the language in which a text is written. To validate the results you can run the demo.py file and see the results of a text for each model. The dataset is loaded form: <a href="https://www.kaggle.com/zarajamshaid/language-identification-datasst"> Kaggle </a>
 
 
 
